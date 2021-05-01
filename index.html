@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />
+      <link rel="stylesheet" href="style.css" />
+      <title>Password Generator</title>
+   </head>
+   <body>
+      <div class="container">
+         <h1 class="heading">Password Generator</h1>
+         <input type="text" class="input-main" placeholder="Generate password here" disabled="disabled" />
+         <img src="/copy.png" alt="copy-icon" class="icon-copy" />
+         <!-- <p class="text-copy">Copied: 7887</p> -->
+
+         <div class="input-container">
+            <div class="input-field">
+               <label for="input-length"> <span class="input-label">Password Length</span></label>
+               <input type="number" class="input-length" />
+            </div>
+
+            <div class="input-field">
+               <label for="input-uppercase"> <span class="input-label">Include uppercase</span></label>
+               <input type="checkbox" class="input-uppercase" />
+            </div>
+
+            <div class="input-field">
+               <label for="input-lowercase"> <span class="input-label">Include lowercase</span></label>
+               <input type="checkbox" class="input-lowercase" />
+            </div>
+
+            <div class="input-field">
+               <label for="input-numbers"> <span class="input-label">Include numbers</span></label>
+               <input type="checkbox" class="input-numbers" />
+            </div>
+
+            <div class="input-field">
+               <label for="input-symbols"> <span class="input-label">Include symbols</span></label>
+               <input type="checkbox" class="input-symbols" />
+            </div>
+
+            <div class="btn"><p class="btn-text">Generate Password</p></div>
+         </div>
+      </div>
+      <p class="create">Created by <span class="name">Wasif Alam</span></p>
+      <script src="/script.js"></script>
+   </body>
+</html>
