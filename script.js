@@ -68,9 +68,8 @@ const renderRandomPassword = function () {
    // CREATING ALERT WINDOW
    if (lengthPass === `` || +lengthPass < 0) alert(`Input valid password length !`);
 
-   if (!uppercaseBox.checked && !lowercaseBox.checked && !numbersBox.checked && !symbolBox.checked) {
+   if (!uppercaseBox.checked && !lowercaseBox.checked && !numbersBox.checked && !symbolBox.checked)
       alert(`Select atleast one case !`);
-   }
 };
 
 // RENDERING RANDOM PASSWORD BY CLICKING BUTTON

@@ -49,14 +49,9 @@ body {
 }
 
 .input-main {
-   padding: 1.5rem 5.2rem;
+   padding: 1.4rem 5rem;
    outline: none;
    font-size: 1.4rem;
-}
-
-input[type="text"]:disabled {
-   background: #ffffff;
-   border: none;
 }
 
 .icon-copy {
