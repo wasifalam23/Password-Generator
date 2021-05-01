@@ -106,3 +106,5 @@ btnCopy.addEventListener(`click`, function () {
 
    renderCopyText();
 });
+
+console.log(`yes`);
